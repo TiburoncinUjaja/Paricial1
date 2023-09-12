@@ -1,0 +1,139 @@
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px; 
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.noticias {
+    display: flex;
+    overflow-x: auto; 
+    padding: 20px;
+
+}
+
+.noticiass {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.noticiass .lis {
+    background-color: #f7f7f7; 
+    padding: 10px;
+    border: 1px solid #f7f7f7; 
+    flex: 0 0 auto; 
+    margin-right: 10px; 
+    width: 33.33%;
+
+}
+
+.noticiass li:last-child {
+    margin-right: 0;
+}
+
+.desp {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.desp img {
+    max-width: 100%;
+}
+
+.comple {
+    display: block;
+    text-align: right; 
+}
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Centra el contenido del footer */
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.otro ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra las listas horizontalmente */
+}
+
+.otro ul li {
+    margin: 0 10px; /* Espacio horizontal entre las listas */
+}
+
+.otro ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.otro ul li a:hover {
+    text-decoration: underline;
+}
